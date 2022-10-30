@@ -22,6 +22,23 @@ module.exports = {
           type: 'doc',
           label: '目錄',
 					id: 'features/index'
+        },
+        {
+          type: 'category',
+          label: '音樂',
+          link: { type: 'doc', id: 'features/index' },
+          items: [
+            {
+              type: 'doc',
+              label: '播放音樂',
+              id: 'features/index'
+            },
+            {
+              type: 'doc',
+              label: '播放清單',
+              id: 'features/index'
+            }
+          ]
         }
       ]
     }
