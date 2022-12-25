@@ -32,6 +32,11 @@ module.exports = {
                             type: 'doc',
                             label: '播放音樂',
                             id: 'features/music/play'
+                        },
+                        {
+                            type: 'doc',
+                            label: '播放清單',
+                            id: 'features/music/playlist'
                         }
                     ]
                 }

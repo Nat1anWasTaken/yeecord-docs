@@ -1,0 +1,47 @@
+---
+title: 播放清單
+---
+
+import Adsense from "../../../src/components/Adsense";
+
+在這個頁面，你會學到如何使用音樂系統提供的 **播放清單** 功能
+
+### 播放播放清單內的歌曲
+
+如果你已經知道播放清單的連結，你可以跳過步驟 1
+
+1. 如圖，使用 `/playlist info` 指令，複製播放清單的連結
+2. 使用 [播放音樂](/docs/features/music/play) 中的步驟播放歌曲
+
+![複製歌酖連結](/img/docs/features/music/get-playlist-link.png)
+
+
+### 創建播放清單
+
+使用 `/playlist create <名稱>` 來創建一個播放清單：
+
+![使用指令創建播放清單](/img/docs/features/music/create-playlist-using-command.png)
+
+### 移除播放清單
+
+使用 `/playlist delete <名稱>` 來移除一個播放清單：
+
+![使用指令移除播放清單](/img/docs/features/music/delete-playlist-using-command.png)
+
+### 新增歌曲
+
+使用 `/playlist add <名稱> <連結>` 來新增歌曲到播放清單：
+
+![新增歌曲至播放清單](/img/docs/features/music/add-song-to-playlist.png)
+
+:::caution
+新增歌曲至播放清單時，你只能夠使用 **關鍵字**，這意味著使用 **連結** 是無效的
+:::
+
+### 移除歌曲
+
+使用 `/playlist remove <名稱> <歌曲>` 來移除播放清單中的歌曲：
+
+![移除播放清單中的歌曲](/img/docs/features/music/remove-song-from-playlist.png)
+
+<Adsense/>
