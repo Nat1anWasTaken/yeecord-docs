@@ -18,7 +18,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
         defaultLocale: 'zh-Hant',
         locales: ['zh-Hant']
     },
-    
+
     presets: [
         [
             '@docusaurus/preset-classic',
