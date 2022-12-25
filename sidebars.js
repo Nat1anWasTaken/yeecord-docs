@@ -26,7 +26,7 @@ module.exports = {
                 {
                     type: 'category',
                     label: '音樂',
-                    link: {type: 'doc', id: 'features/index'},
+                    link: {type: 'doc', id: 'features/music/play'},
                     items: [
                         {
                             type: 'doc',
