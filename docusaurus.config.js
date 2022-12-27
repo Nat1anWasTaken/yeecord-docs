@@ -76,9 +76,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
             items: [
                 {
                     type: 'doc',
-                    docId: 'index',
+                    docId: 'tutorial/index',
                     position: 'left',
                     label: '使用教學',
+                },
+                {
+                    type: 'doc',
+                    docId: 'references/index',
+                    position: 'left',
+                    label: '指令列表',
                 },
                 {to: '/docs/faq/', label: '常見問題', position: 'left'},
                 {to: '/blog/', label: '部落格', position: 'left'},

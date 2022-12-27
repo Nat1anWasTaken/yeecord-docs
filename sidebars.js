@@ -10,35 +10,23 @@
  */
 
 module.exports = {
-    yeecordSidebar: [
-        'index',
-        'getting-started',
+    tutorial: [
+        'tutorial/index',
+        'tutorial/getting-started',
         {
             type: 'category',
-            label: '特色功能',
-            link: {type: 'doc', id: 'features/index'},
+            label: '音樂',
+            link: { type: 'doc', id: 'tutorial/music/play' },
             items: [
                 {
                     type: 'doc',
-                    label: '目錄',
-                    id: 'features/index'
+                    label: '播放音樂',
+                    id: 'tutorial/music/play'
                 },
                 {
-                    type: 'category',
-                    label: '音樂',
-                    link: {type: 'doc', id: 'features/music/play'},
-                    items: [
-                        {
-                            type: 'doc',
-                            label: '播放音樂',
-                            id: 'features/music/play'
-                        },
-                        {
-                            type: 'doc',
-                            label: '播放清單',
-                            id: 'features/music/playlist'
-                        }
-                    ]
+                    type: 'doc',
+                    label: '播放清單',
+                    id: 'tutorial/music/playlist'
                 }
             ]
         }
@@ -79,5 +67,8 @@ module.exports = {
         // 'chat',
         // 'credit',
         // 'copyright'
+    ],
+    references: [
+        'references/index'
     ]
 };
